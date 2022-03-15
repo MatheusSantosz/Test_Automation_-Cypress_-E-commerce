@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-15T00:57:01.320Z",
-    "end": "2022-03-15T00:57:21.999Z",
-    "duration": 20679,
+    "start": "2022-03-15T02:31:27.101Z",
+    "end": "2022-03-15T02:31:53.824Z",
+    "duration": 26723,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "52367262-88a5-4ed4-ba03-8681ef383175",
+      "uuid": "8bf72af7-588c-4c62-b885-93c2d24887a8",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0a14438c-c44f-4a73-81ee-43181c36efda",
+          "uuid": "f2675fb5-4c08-4a0f-a4f8-e2a6cab394e7",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu informar os dados e finalizar, o cadastro deve ser efetuado com sucesso!",
               "fullTitle": "Cadastro Quando eu informar os dados e finalizar, o cadastro deve ser efetuado com sucesso!",
               "timedOut": null,
-              "duration": 18017,
+              "duration": 23215,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://automationpractice.com/index.php?controller=authentication&back=my-account');\ncy.get('input[name=email_create]').type(chance.email()); /// segunda etapa do cadastro\n// cy.intercept('GET', '**/index.php?controller=authentication&back=my-account#account-creation').as('accountCreated');\ncy.get('#SubmitCreate > span').click(); // cy.wait('accountCreated')\ncy.url('').should('be.equal', 'http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation');\ncy.get('input#id_gender1').check().should('be.checked');\ncy.get('input#id_gender2').should('not.be.checked');\ncy.get('input#customer_firstname').type(chance.first());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').should('to.be.empty').type('Cadastro@1234');\ncy.get('#days').select('27').should('not.be.empty');\ncy.get('#months').select('March').should('not.be.empty');\ncy.get('#years').select('1997').should('not.be.empty');\ncy.get('input#newsletter').check().should('be.checked');\n;\ncy.get('input#optin').check().should('be.checked');\n;\ncy.get('input#firstname').should('to.be.empty').type(chance.name());\ncy.get('input#lastname').should('to.be.empty').type(chance.last({\n  nationality: 'en'\n}));\ncy.get('input#company').should('to.be.empty').type(chance.word({\n  length: 5\n}));\ncy.get('input#address1').should('to.be.empty').type(chance.address());\ncy.get('input#address2').should('to.be.empty').type(chance.address());\ncy.get('input#city').should('to.be.empty').type(chance.city());\ncy.get('#id_state').select('Colorado').should('not.be.empty');\ncy.get('#postcode').type(chance.zip());\ncy.get('textarea[name=other]').type(chance.paragraph({\n  sentences: 1\n}));\ncy.get('#phone').type(chance.phone({\n  country: \"us\"\n}));\ncy.get('#phone_mobile').type(chance.phone({\n  country: 'us',\n  mobile: true\n}));\ncy.get('input[name=alias]').type(chance.word({\n  length: 5\n}));\ncy.get('button#submitAccount').click();\ncy.url('').should('be.equal', 'http://automationpractice.com/index.php?controller=my-account');",
               "err": {},
-              "uuid": "391155f6-1b5b-4e8a-a902-f41f5188eb42",
-              "parentUUID": "0a14438c-c44f-4a73-81ee-43181c36efda",
+              "uuid": "15d1063f-094f-40f9-a162-4c5aa7ca5d9c",
+              "parentUUID": "f2675fb5-4c08-4a0f-a4f8-e2a6cab394e7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "391155f6-1b5b-4e8a-a902-f41f5188eb42"
+            "15d1063f-094f-40f9-a162-4c5aa7ca5d9c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 18017,
+          "duration": 23215,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
