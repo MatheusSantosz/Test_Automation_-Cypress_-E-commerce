@@ -71,6 +71,9 @@ npx cypress run
 
 ## :hourglass: CI Github Actions :link:
 https://github.com/MatheusSantosz/Test_Automation_Cypress_E-commerce/actions
+	
+## :chart_with_upwards_trend: Report :link:
+https://matheussantosz.github.io/Test_Automation_Cypress_E-commerce/	
 - [x] Test E2E
 
 <h4 align="center"> 
