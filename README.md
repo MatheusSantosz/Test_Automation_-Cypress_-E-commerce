@@ -2,7 +2,7 @@
 Desafio [Chapter IV] Agilizei BootCamp, utilizando o CI do git Actions e mochawesome-report.
 ![agilizeBootCamp](https://user-images.githubusercontent.com/62854319/158291684-392309cf-ab85-40ad-af55-8bf947133036.png)
 # Test Automation with Cypress + CI using GitHub Actions
-### Agilizei Bootcamp - Desafio 1 [Chapter IV]
+### Agilizei Bootcamp - Desafio 2 [Chapter IV]
 ---
 Projeto desenvolvido para o desafio do terceiro módulo [Chapter IV] do Agilizei Bootcamp.
 
