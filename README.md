@@ -4,7 +4,7 @@ Desafio [Chapter IV] Agilizei BootCamp, utilizando o CI do git Actions e mochawe
 # Test Automation with Cypress + CI using GitHub Actions
 ### Agilizei Bootcamp - Desafio 2 [Chapter IV]
 ---
-Projeto desenvolvido para o desafio do terceiro módulo [Chapter IV] do Agilizei Bootcamp.
+Projeto desenvolvido para o desafio do segundo módulo [Chapter IV] do Agilizei Bootcamp.
 
 ## :interrobang: Tecnologias Utilizadas
 - <p align="left"> <a href="https://www.cypress.io" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="40" height="40"/> </a>
