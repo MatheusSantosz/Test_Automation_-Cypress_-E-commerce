@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-03-29T02:29:13.753Z",
-    "end": "2022-03-29T02:29:48.971Z",
-    "duration": 35218,
+    "start": "2022-03-29T02:53:27.580Z",
+    "end": "2022-03-29T02:53:49.501Z",
+    "duration": 21921,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "49d4b008-b0fd-4178-b9f4-2537fa217f09",
+      "uuid": "685b2d68-71fb-46a6-a722-16de284f771f",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "918baf08-5c7f-4574-8f96-f2256348bb32",
+          "uuid": "38fc51d1-e6ce-406e-99b0-bcc2cd30b48e",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu informar os dados e finalizar, o cadastro deve ser efetuado com sucesso!",
               "fullTitle": "Cadastro Quando eu informar os dados e finalizar, o cadastro deve ser efetuado com sucesso!",
               "timedOut": null,
-              "duration": 27032,
+              "duration": 19280,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('http://automationpractice.com/index.php?controller=authentication&back=my-account');\ncy.get('input[name=email_create]').type(chance.email()); /// segunda etapa do cadastro\ncy.get('#SubmitCreate > span').click();\ncy.url('').should('be.equal', 'http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation');\ncy.get('input#id_gender1').check().should('be.checked');\ncy.get('input#id_gender2').should('not.be.checked');\ncy.get('input#customer_firstname').type(chance.first());\ncy.get('input#customer_lastname').type(chance.last());\ncy.get('input#passwd').should('to.be.empty').type('Cadastro@1234');\ncy.get('#days').select('27').should('not.be.empty');\ncy.get('#months').select('March').should('not.be.empty');\ncy.get('#years').select('1997').should('not.be.empty');\ncy.get('input#newsletter').check().should('be.checked');\n;\ncy.get('input#optin').check().should('be.checked');\n;\ncy.get('input#firstname').should('to.be.empty').type(chance.name());\ncy.get('input#lastname').should('to.be.empty').type(chance.last({\n  nationality: 'en'\n}));\ncy.get('input#company').should('to.be.empty').type(chance.word({\n  length: 5\n}));\ncy.get('input#address1').should('to.be.empty').type(chance.address());\ncy.get('input#address2').should('to.be.empty').type(chance.address());\ncy.get('input#city').should('to.be.empty').type(chance.city());\ncy.get('#id_state').select('Colorado').should('not.be.empty');\ncy.get('#postcode').type(chance.zip());\ncy.get('textarea[name=other]').type(chance.paragraph({\n  sentences: 1\n}));\ncy.get('#phone').type(chance.phone({\n  country: \"us\"\n}));\ncy.get('#phone_mobile').type(chance.phone({\n  country: 'us',\n  mobile: true\n}));\ncy.get('input[name=alias]').type(chance.word({\n  length: 5\n}));\ncy.get('button#submitAccount').click(); //cy.url('').should('be.equal','http://automationpractice.com/index.php?controller=my-account');",
               "err": {},
-              "uuid": "4515e941-4f78-4bdb-9987-65ced5668aba",
-              "parentUUID": "918baf08-5c7f-4574-8f96-f2256348bb32",
+              "uuid": "f7c4f2ff-9aed-4bb9-aefa-28430eb8c46c",
+              "parentUUID": "38fc51d1-e6ce-406e-99b0-bcc2cd30b48e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4515e941-4f78-4bdb-9987-65ced5668aba"
+            "f7c4f2ff-9aed-4bb9-aefa-28430eb8c46c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 27032,
+          "duration": 19280,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
