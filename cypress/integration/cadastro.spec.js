@@ -9,9 +9,7 @@ describe('Cadastro', () => {
 
     cy.get('input[name=email_create]').type(chance.email());
      /// segunda etapa do cadastro
-    // cy.intercept('GET', '**/index.php?controller=authentication&back=my-account#account-creation').as('accountCreated');
     cy.get('#SubmitCreate > span').click();
-    // cy.wait('accountCreated')
     cy.url('').should('be.equal','http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation')
     cy.get('input#id_gender1').check().should('be.checked');
     cy.get('input#id_gender2').should('not.be.checked')
