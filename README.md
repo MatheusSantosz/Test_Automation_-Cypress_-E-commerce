@@ -16,6 +16,9 @@ Projeto desenvolvido para o desafio do terceiro módulo [Chapter IV] do Agilizei
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
         alt="javascript" width="40" height="40" /> </a>
 
+Let's connect? 🤝
+
+[![Linkedin: matheus](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-dos-santos-397004b4/)](https://www.linkedin.com/in/matheus-dos-santos-397004b4/)
 
 ## :eyes: Como Executar o Projeto
 Clone este repositório
@@ -80,6 +83,4 @@ https://matheussantosz.github.io/Test_Automation_Cypress_E-commerce/
 	 Status 🚀 Finalizado 
 </h4>
 
-Let's connect? 🤝
 
-[![Linkedin: matheus](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-dos-santos-397004b4/)](https://www.linkedin.com/in/matheus-dos-santos-397004b4/)
